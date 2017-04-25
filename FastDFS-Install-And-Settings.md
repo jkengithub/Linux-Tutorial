@@ -276,8 +276,8 @@
     # store_path0=/opt/fastdfs/storage/images-data0
     # store_path1=/opt/fastdfs/storage/images-data1
     # store_path2=/opt/fastdfs/storage/images-data2
-    store_path0=/opt/fastdfs/storage/images-data
-    log_level=info
+    store_path0=/opt/fastdfs/storage/images-data    #与storage的地址保持一致 /opt/fastdfs/storage/images-data
+    log_level=info
     log_filename=
     response_mode=proxy
     if_alias_prefix=
