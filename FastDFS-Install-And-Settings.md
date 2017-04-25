@@ -4,6 +4,7 @@
 ## 它是什么
 
 - FastDFS 介绍：<http://www.oschina.net/p/fastdfs>
+- Nginx1.8.1 下载： <http://pkgs.fedoraproject.org/lookaside/pkgs/nginx/nginx-1.8.1.tar.gz/md5/2e91695074dbdfbf1bcec0ada9fda462/nginx-1.8.1.tar.gz>
 - 官网下载 1：<https://github.com/happyfish100/fastdfs/releases>
 - 官网下载 2：<https://sourceforge.net/projects/fastdfs/files/>
 - 官网下载 3：<http://code.google.com/p/fastdfs/downloads/list>
@@ -276,7 +277,8 @@
     # store_path0=/opt/fastdfs/storage/images-data0
     # store_path1=/opt/fastdfs/storage/images-data1
     # store_path2=/opt/fastdfs/storage/images-data2
-    store_path0=/opt/fastdfs/storage/images-data    #与storage的地址保持一致 /opt/fastdfs/storage/images-data
+    # 与storage的地址保持一致 /opt/fastdfs/storage/images-data
+    store_path0=/opt/fastdfs/storage/images-data    
     log_level=info
     log_filename=
     response_mode=proxy
